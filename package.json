@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/elmo7887/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/elmo7887/frontend-project-46/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmo7887/frontend-project-46.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmo7887/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/elmo7887/frontend-project-46#readme",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "type": "module"
+}
