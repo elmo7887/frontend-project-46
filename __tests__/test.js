@@ -15,9 +15,9 @@ const testFormats = ['json', 'yaml']
 test.each(testFormats)('Get difference of two %s files', (format) => {
     const path1 = getPathToFixturesFiles(`file1.${format}`)
     const path2 = getPathToFixturesFiles(`file2.${format}`)
-    expect(genDiff(path1, path2)).toBe(readFileData('stylish.txt'))
-    expect(genDiff(path1, path2, 'stylish')).toBe(readFileData('stylish.txt'))
-    expect(genDiff(path1, path2, 'plain')).toBe(readFileData('plain.txt'))
-    expect(genDiff(path1, path2, 'json')).toBe(readFileData('json.txt'))
+    expect(genDiff(path1, path2)).toEqual(readFileData('stylish.txt'))
+    expect(genDiff(path1, path2, 'stylish')).toEqual(readFileData('stylish.txt'))
+    expect(genDiff(path1, path2, 'plain')).toEqual(readFileData('plain.txt'))
+    expect(genDiff(path1, path2, 'json')).toEqual(readFileData('json.txt'))
     expect(() => JSON.parse(genDiff(path1, path2, 'json'))).not.toThrow()
 })
