@@ -1,4 +1,5 @@
 import buildTree from './buildTree.js'
+import process from 'node:process'
 import parseData from './parsers.js'
 import fs from 'fs'
 import path from 'path'
