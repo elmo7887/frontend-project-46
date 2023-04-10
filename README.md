@@ -6,8 +6,24 @@
 # Setup
 
 > make install
+>
 > npm link
 
 ---
 
-[![asciicast](https://asciinema.org/a/J8kmrJDIau968RFg55vpxtlGh.svg)](https://asciinema.org/a/J8kmrJDIau968RFg55vpxtlGh)
+
+# Usage
+
+---
+## Stylish:
+[![asciicast](https://asciinema.org/a/nA8A3c03gN5s42FTyOQmdIihg.svg)](https://asciinema.org/a/nA8A3c03gN5s42FTyOQmdIihg)
+
+## Plain:
+[![asciicast](https://asciinema.org/a/skx1KE2vwKhr3ja841aOoe2cS.svg)](https://asciinema.org/a/skx1KE2vwKhr3ja841aOoe2cS)
+
+## JSON:
+[![asciicast](https://asciinema.org/a/NDpfV92FKf5DjsSlwf9Cb0tIM.svg)](https://asciinema.org/a/NDpfV92FKf5DjsSlwf9Cb0tIM)
+
+
+
+

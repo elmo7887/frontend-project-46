@@ -10,6 +10,9 @@ publish:
 lint:
 	npx eslint .
 
+rec:
+	asciinema rec
+
 test:
 	npm test
 
