@@ -1,17 +1,17 @@
-import performStylish from './stylish.js'
-import performPlain from './plain.js'
+import performStylish from './stylish.js';
+import performPlain from './plain.js';
 
 const formatDiff = (diffTree, format) => {
-    switch (format) {
+  switch (format) {
     case 'json':
-        return JSON.stringify(diffTree)
+      return JSON.stringify(diffTree);
     case 'stylish':
-        return performStylish(diffTree)
+      return performStylish(diffTree);
     case 'plain':
-        return performPlain(diffTree)
+      return performPlain(diffTree);
     default:
-        throw new Error(`Sorry, the '${format}' format is not supported`)
-    }
-}
+      throw new Error(`Sorry, the '${format}' format is not supported`);
+  }
+};
 
-export default formatDiff
+export default formatDiff;
