@@ -1,7 +1,7 @@
 import performStylish from './stylish.js'
 import performPlain from './plain.js'
 
-const perform = (diffTree, format) => {
+const formatDiff = (diffTree, format) => {
     switch (format) {
     case 'json':
         return JSON.stringify(diffTree)
@@ -14,4 +14,4 @@ const perform = (diffTree, format) => {
     }
 }
 
-export default perform
+export default formatDiff
